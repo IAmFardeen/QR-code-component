@@ -1,0 +1,41 @@
+body{
+    background-color: hwb(219 48% 38%);
+    text-align: center;
+}
+
+.qrcard{
+  width: 30%;
+  background-color: hsl(0, 0%, 100%);
+  /* border:4px solid black; */
+  padding: 20px;
+  border-radius: 30px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+}
+.qrcodeimage{
+  width: 100%;
+  
+}
+
+.container{
+  font-size: 15px;
+}
+.container .heading{
+  font-weight: 400;
+}
+.container .paragraph{
+  font-weight: 700;
+  color: hsl(212, 45%, 89%);
+}
+
+.attribution{
+  font-size: 11px; 
+  text-align: center;
+  position: absolute;
+  left:58%;
+  top: 140%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
